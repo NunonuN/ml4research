@@ -3,6 +3,10 @@
 Welcome to the official repository for the **Machine Learning for Scientific Research** course.
 This programme is designed to bridge the gap between "black-box" machine learning (ML) and the demands of the scientific method.
 
+## 🪐 Level
+This is an **introductory-level course**, specifically designed for researchers and scientists who are new to the field of Machine Learning.
+While we focus on high-level scientific rigour and robustness, no prior expertise in artificial intelligence (AI) or advanced computer science is required to get started.
+
 ## 🌟 Course philosophy
 In science, a prediction without an explanation or an uncertainty estimate is just a guess.
 This course focuses on **robust ML**: moving beyond simple accuracy to prioritise generalisability, interpretability, and reproducibility.
