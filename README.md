@@ -68,7 +68,7 @@ Clone the repository and synchronise the environment.
 `uv` will automatically create a virtual environment and install all dependencies:
 ```bash
 git clone git@github.com:NunonuN/ml4research.git
-cd ml-for-research
+cd ml4research
 uv sync
 ```
 
