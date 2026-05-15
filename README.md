@@ -75,8 +75,10 @@ uv sync
 ### 3. Running notebooks
 To run the Jupyter notebooks, open them inside VSCodium or, within the locked environment, run:
 ```bash
-uv run jupyter lab
+uv run jupyter-lab
 ```
+
+🚀 **First Step**: before Day 1, please complete the instructions in [0+environment-setup.ipynb](./notebooks/0+environment-setup.ipynb) to ensure your local machine is ready.
 
 ---
 
