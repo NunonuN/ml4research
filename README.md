@@ -1,6 +1,6 @@
 # Machine Learning for Scientific Research 🔬🤖
 
-Welcome to the official repository for the **Machine Learning for Scientific Research** course.
+Welcome to the official repository for the **Machine Learning for Scientific Research** course. 🧠
 This programme is designed to bridge the gap between "black-box" machine learning (ML) and the demands of the scientific method.
 
 ## 🪐 Level
@@ -49,10 +49,56 @@ This course focuses on **robust ML**: moving beyond simple accuracy to prioritis
 
 ## 🛠️ Getting Started
 
+You will need to use the **command line** for several tasks—not only during software installation, but also in the hands-on activities.
+We will be using **Python** for our exercises.
+Start by opening a terminal window and typing the following command:
+
+```bash
+python -V
+```
+or
+```bash
+python --version
+```
+
+You should see output similar to:
+
+```bash
+Python 3.XX.YY
+```
+
+where `XX` and `YY` depend on your installed Python version.
+Any recent **Python 3** version should be compatible with the packages we will use.
+
+---
+
+### 1. [VSCodium](https://vscodium.com)
+
+We will use **VSCodium** for our programming tasks.
+VSCodium is a source code editor designed for programming and software development.
+While it is **not technically an Integrated Development Environment (IDE)**, it can behave line one with the right extensions, providing project management, debugging, and testing features.
+It is an open-source version of Visual Studio Code (VS Code) that **respects your privacy**—it does not send usage data to Microsoft.
+
+However, if you prefer, you can use [Visual Studio Code](https://code.visualstudio.com).
+
+#### Recommended extensions
+
+After installing VSCodium, open the "Extensions" panel and install the following:
+- `Python` (ms-python)
+- `Jupyter` (ms-toolsai)
+- `Jupyter Notebook Renderers` (ms-toolsai)
+- `CSV` (ReprEng)
+- `git-autoconfig` (shyykoserhiy)
+
+Other helpful extensions:
+- `Todo Tree` (for tags and task tracking)
+- `Vim` (for Vim enthusiasts).
+
+### 2. Install `uv`
+
 This project uses [`uv`](https://docs.astral.sh/uv/) for Python package and project management.
 This ensures that everyone uses the exact same versions of libraries, locked in the `uv.lock` file.
 
-### 1. Install `uv`
 If you haven't installed `uv` yet, run the following:
 - **macOS/Linux**:
   ```bash
@@ -63,7 +109,8 @@ If you haven't installed `uv` yet, run the following:
   powershell -c "irm [https://astral.sh/uv/install.ps1](https://astral.sh/uv/install.ps1) | iex"
   ```
 
-### 2. Environment setup
+### 3. Environment setup
+
 Clone the repository and synchronise the environment.
 `uv` will automatically create a virtual environment and install all dependencies:
 ```bash
@@ -72,21 +119,22 @@ cd ml4research
 uv sync
 ```
 
-### 3. Running notebooks
-To run the Jupyter notebooks, open them inside VSCodium or, within the locked environment, run:
+### 4. Running notebooks
+
+To run the Jupyter notebooks provided in the `notebooks/` directory, open them inside VSCodium or, within the locked environment, run:
 ```bash
 uv run jupyter-lab
 ```
 
-🚀 **First Step**: before Day 1, please complete the instructions in [0+environment-setup.ipynb](./notebooks/0+environment-setup.ipynb) to ensure your local machine is ready.
+🚀 **First step**: before the start of the course, please complete the instructions in this section to ensure your local machine is ready.
 
 ---
 
 ## 📂 Repository Structure
 
-- `/notebooks`: Jupyter notebooks containing lecture code and hands-on exercises.
-- `/slides`: PDF interactive presentations for each day.
-- `/data`: sample data sets (Diabetes, Iris, California Housing) used in tutorials.
+- `notebooks/`: Jupyter notebooks containing lecture code and hands-on exercises.
+- `slides/`: PDF interactive presentations for each day.
+- `data/`: sample data sets (Diabetes, Iris, California Housing) used in tutorials.
 - `pyproject.toml`: project metadata and dependency definitions.
 - `uv.lock`: the deterministic lock-file ensuring reproducible set-ups.
 
