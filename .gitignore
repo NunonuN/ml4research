@@ -13,4 +13,7 @@ wheels/
 .vscode/
 assets/
 graveyard/
+imgs/
+*.numbers
+*.key
 main.py
