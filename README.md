@@ -16,6 +16,7 @@ This course focuses on **robust ML**: moving beyond simple accuracy to prioritis
 ## 📅 Programme overview
 
 ### [Day 1: Foundations of scientific ML](link_to_day1)
+- **Context**: Machine Learning definition and key milestones.
 - **Scientific problems**: predictive modelling _vs._ parameter estimation.
 - **The workflow**: adapting the ML life cycle to the scientific method.
 - **Generalisation**: understanding the tension between **overfitting** and **underfitting**.
@@ -35,6 +36,10 @@ This course focuses on **robust ML**: moving beyond simple accuracy to prioritis
 - **Evaluation metrics**: choosing metrics that match scientific goals (e.g., $\text{R}^2$, MSE, F1-score).
 
 ### [Day 4: advanced architectures](link_to_day4)
+- **Ensemble methods**: classical ensemble methods for classification and regression.
+- **Advanced ensemble methods**: stacking.
+
+### [Day 5: advanced architectures](link_to_day5)
 - **Neural networks**: transitioning from classical ML to Deep Learning.
 - **Unstructured data**: processing signals and images in a research context.
 

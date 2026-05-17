@@ -12,8 +12,10 @@ wheels/
 # miscellaneous
 .vscode/
 assets/
+contacts/
 graveyard/
 imgs/
+nuno/
 *.numbers
 *.key
 main.py
