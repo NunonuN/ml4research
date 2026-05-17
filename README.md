@@ -119,12 +119,19 @@ cd ml4research
 uv sync
 ```
 
-### 4. Running notebooks
+### 4. Activate the environment
+
+- **macOS/Linux**: `source .venv/bin/activate`
+- **Windows (PowerShell)**: `.venv\Scripts\Activate.ps1`
+
+### 5. Running notebooks
 
 To run the Jupyter notebooks provided in the `notebooks/` directory, open them inside VSCodium or, within the locked environment, run:
 ```bash
 uv run jupyter-lab
 ```
+
+> **Note**: when opening a `.ipynb` (Jupyter notebook) file inside VSCodium, ensure you select the `.venv` kernel at the top right of the screen, if prompted.
 
 🚀 **First step**: before the start of the course, please complete the instructions in this section to ensure your local machine is ready.
 
