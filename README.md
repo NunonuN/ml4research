@@ -15,11 +15,13 @@ This course focuses on **robust ML**: moving beyond simple accuracy to prioritis
 
 ## 📅 Programme overview
 
-### [Day 1: Foundations of scientific ML](link_to_day1)
-- **Context**: Machine Learning definition and key milestones.
-- **Scientific problems**: predictive modelling _vs._ parameter estimation.
-- **The workflow**: adapting the ML life cycle to the scientific method.
-- **Generalisation**: understanding the tension between **overfitting** and **underfitting**.
+### [Day 1: Introduction to Machine Learning](link_to_day1)
+- **Defining the landscape**: conceptual overview distinguishing Machine Learning (ML) from broader and intersecting fields such as Artificial Intelligence (AI), Data Mining, Data Science, Big Data, and Deep Learning (DL).
+- **Historical milestones**: historical walk-through of AI and ML evolution—spanning from foundational 18th-century mathematics to early computational paradigms (perceptrons) and breakthroughs in modern DL and Transformers.
+- **The Machine Learning paradigm**: comparison of traditional rule-based programming (logic-first approach) against the data-driven paradigm where algorithms infer underlying logic directly from observed data.
+- *Core definitions & pipelines**: examination of classical engineering definitions of learning (Mitchell's framework mapping Task, Performance, and Experience) alongside an analysis of the end-to-end ML production pipeline.
+- **Taxonomy of learning categories**: breakdown of standard operational methodologies including Supervised (labelled training), Unsupervised (structure discovery), and Reinforcement learning (agent-reward systems), as well as Semi-supervised and Self-supervised approaches.
+- **Mathematical intuition**: introduction to ML as formal function approximation, utilizing linear and log-transformed regression models to explore loss minimisation via Residual Sum of Squares (RSS).
 - **The bias-variance trade-off**: navigating model complexity _vs._ stability.
 
 ### [Day 2: Data wrangling & robustness](link_to_day2)
@@ -42,13 +44,6 @@ This course focuses on **robust ML**: moving beyond simple accuracy to prioritis
 ### [Day 5: advanced architectures](link_to_day5)
 - **Neural networks**: transitioning from classical ML to Deep Learning.
 - **Unstructured data**: processing signals and images in a research context.
-
-### [Day 5: robustness, ethics & beyond](link_to_day5)
-- **Uncertainty quantification**: confidence intervals and Bayesian approaches.
-- **Explainability (XAI)**: opening the black box with **SHAP** values and feature importance.
-- **Reproducibility**: version control with Git, environment management, and documentation.
-- **Ethics & bias**: identifying algorithmic bias in scientific cohorts.
-- **Hands-on capstone** applying the full stack to your own research data.
 
 ---
 
