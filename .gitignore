@@ -16,6 +16,7 @@ contacts/
 graveyard/
 imgs/
 nuno/
+sides/
 *.numbers
 *.key
 main.py
