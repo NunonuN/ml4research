@@ -79,7 +79,7 @@ Any recent **Python 3** version should be compatible with the packages we will u
 
 ### 1. [VSCodium](https://vscodium.com)
 
-We will use **VSCodium** for our programming tasks.
+We will use [**VSCodium**](https://vscodium.com) for our programming tasks.
 VSCodium is a source code editor designed for programming and software development.
 While it is **not technically an Integrated Development Environment (IDE)**, it can behave line one with the right extensions, providing project management, debugging, and testing features.
 It is an open-source version of Visual Studio Code (VS Code) that **respects your privacy**—it does not send usage data to Microsoft.
@@ -99,7 +99,7 @@ Other helpful extensions:
 - `Todo Tree` (for tags and task tracking)
 - `Vim` (for Vim enthusiasts).
 
-### 2. Install `uv`
+### 2. Install [`uv`](https://docs.astral.sh/uv/)
 
 This project uses [`uv`](https://docs.astral.sh/uv/) for Python package and project management.
 This ensures that everyone uses the exact same versions of libraries, locked in the `uv.lock` file.
